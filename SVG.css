@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine');
+
+h1 {
+  font-size: 45px;
+  font-family: BenchNine;
+}
+
+p  {
+  font-size: 25px;
+  font-family: BenchNine;
+}
+
+body{
+  background-color: lightblue;
+}
