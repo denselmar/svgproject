@@ -8,9 +8,9 @@
   <body>
     <!-- page content -->
     <h1>Svg project</h1>
-    <p>The sun will change colors when pressed, and hover over clouds to see transparency. oh look at the redish tree grow. now look at the waterfall
-    and press on the mist  bellow.</p>
-    <svg width="90%" viewBox="10 0 200 200" style="background-color:#5198d6">
+    <p>The sun will change colors when pressed, and hover over clouds to see them gone. Oh look at the redish tree grow. Now look at the waterfall
+    and press on the mist  bellow. The transparent bridge wont be easy to pass. So be careful as you go.</p>
+    <svg width="90%" viewBox="10 0 200 200" style="background-color:lightblue">
         <!-- clouds-good -->
   <ellipse cx="100" cy="55" rx="30" ry="7" fill="white">
 <animate attributeName="fill" from="white" to="#5198d6" dur="5s" begin="mouseover" />
@@ -19,15 +19,6 @@
   <ellipse cx="50" cy="45" rx="30" ry="6" fill="white">
 <animate attributeName="fill" from="white" to="#5198d6" dur="5s" begin="mouseover" />
   </ellipse>
-
-      <!-- House -->
-      <rect x="80" y="90" width="20" height="20" fill="skyblue">
-<animate attributeName="y" from="90" to="0" dur="9s" fill="freeze" />
-<animate attributeName="x" from="80" to="120" dur="9s" fill="freeze"/>
-      </rect>
-      <polygon points="80,90 90,90 100,90" fill="#ad9e53">
-      <animate attributeName="points" from="80,90 90,70 100,90" to="120,0 130,-20 140,0" dur="9s" />
-      </polygon>
 
       <!-- sun-good -->
        <circle r="10" cx="100" cy="25" fill="yellow">
@@ -49,14 +40,14 @@
       <circle r="5" cx="30" cy="45" fill="green">
       </circle>
 
-      <!--mountainside-->
+      <!--mountainside-good -->
        <rect x="170" y="35" width="40" height="190" fill="#8e7a47"/>
 
-         <!--water fall-->
+         <!--water fall-good -->
        <rect x="160" y="35" width="30" height="190" fill="blue"/>
 
        <rect x="170" y="55" width="1" height="30" fill="white">
-         <animate  attributeName = "y" from = "55" to = "85" dur = "4s" repeatcount="indefinite"/>
+         <animate  attributeName = "y" from = "55" to = "205" dur = "4s" repeatcount="indefinite"/>
        </rect>
 
        <rect x="180" y="55" width="1" height="20" fill="white">
@@ -64,7 +55,7 @@
        </rect>
 
        <rect x="175" y="35" width="1" height="20" fill="white">
-         <animate attributeName = "y" from = "35" to = "85" dur = "4s" repeatcount="indefinite"/>
+         <animate attributeName = "y" from = "35" to = "95" dur = "4s" repeatcount="indefinite"/>
        </rect>
 
        <rect x="185" y="65" width="1" height="20" fill="white">
@@ -81,7 +72,7 @@
 
   <!---the only transparent shape-->
 
- <rect x="60" y="150" width="95" height="15" fill="green" fill-opacity="0.25"/>
+ <rect x="10" y="150" width="150" height="15" fill="green" fill-opacity="0.25"/>
 
 
        <rect x="150" y="35" width="15" height="190" fill="#8e7a47"/>
